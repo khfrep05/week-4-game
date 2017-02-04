@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+
+}
+
+.container {
+	width: 800px;
+	height: 954px;
+	background-image: url(../images/backgroundjewelgame.jpg);
+}
+
+.Rules {
+	color: green;
+	height: 410px;
+	width: 500px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 10px;
+}
+
+h1 {
+	color: white;
+	font-size: 30px;
+}
+
+.GameTitle {
+	height: 30px;
+	width: 233px;
+	background-color: orange;
+	padding: 10px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+p {
+	padding: 11px;
+}
+
+.computerNumber {
+	width: 250px;
+	height: 150px;
+	background-color: teal;
+	float: left;
+	margin-left: 10px;
+}
+
+.winloss {
+	float: left;
+	background-color: beige;
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
