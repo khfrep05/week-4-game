@@ -4,19 +4,19 @@ body {
 }
 
 .container {
-	width: 800px;
-	height: 954px;
-	background-image: url(../images/backgroundjewelgame.jpg);
+	width: 721px;
+    height: 662px;
+    background-image: url(../images/backgroundjewelgame.jpg);
 }
 
 .Rules {
 	color: green;
-	height: 410px;
-	width: 500px;
-	background-color: white;
-	font-weight: bold;
-	font-size: 22px;
-	margin-left: 10px;
+    height: 200px;
+    width: 508px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 h1 {
@@ -39,18 +39,22 @@ p {
 
 .computerNumber {
 	width: 250px;
-	height: 150px;
-	background-color: teal;
-	float: left;
-	margin-left: 10px;
+    height: 113px;
+    background-color: teal;
+    float: left;
+    margin-left: 10px;
 }
 
 .winloss {
 	float: left;
-	background-color: beige;
+    background-color: beige;
     margin-left: 10px;
-    height: 150px;
+    height: 113px;
     width: 150px;
     font-size: 25px;
     font-weight: bold;
+}
+
+.totalscore {
+	float: left;
 }
