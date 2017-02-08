@@ -2,16 +2,15 @@
 <html>
 <head>
 	<title>JewelGame</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+	
 <body>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-<header>
 
-</header>
 <section>
 	<div class="container">
 		<h1 class="GameTitle">CrystalsCollector!</h1>
@@ -24,16 +23,20 @@
 			</div>
 		<br>
 	<div class="parentdiv">
-		<div class="computerNumber">		
+		<div class="computerNumber" id="RandomNumber">		
 		</div>
 			<div class="winloss">
 			<p>Wins:<span class="wins"></span></p>
 			<br>
 			<p>Losses:<span class="losses"></span></p>		
 			</div>
-		</div>
+	</div>
 			<br>
 			<div class="crystals">
+				<img id="Jewel1" src="assets/images/blue.png">
+				<img id="Jewel2" src="assets/images/green.png">
+				<img id="Jewel3" src="assets/images/red.png">
+				<img id="Jewel4" src="assets/images/yellow.png">
 			</div>
 		<div class="totalscore">
 			<h2>Your Total Score Is:</h2>
@@ -46,4 +49,5 @@
 
 
 </body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>

@@ -25,12 +25,12 @@ h1 {
 }
 
 .GameTitle {
-	height: 30px;
-	width: 233px;
+	height: 35px;
+	width: 234px;
 	background-color: orange;
-	padding: 10px;
 	font-weight: bold;
 	margin-left: 10px;
+	margin-top: 5px;
 }
 
 p {
@@ -41,20 +41,46 @@ p {
 	width: 250px;
     height: 113px;
     background-color: teal;
-    float: left;
     margin-left: 10px;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .winloss {
-	float: left;
     background-color: beige;
     margin-left: 10px;
     height: 113px;
     width: 150px;
     font-size: 25px;
     font-weight: bold;
+	display: inline-block;
 }
 
 .totalscore {
-	float: left;
+	width: 151px;
+	height: 25px;
+	border: 2px solid black;
+	margin-left: 10px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.myScorebox {
+	width: 250px;
+    height: 113px;
+    background-color: teal;
+    margin-left: 10px;
+	margin-top: 15px;
+	font-size: 35px;
+	font-weight: bold;
+}	
+
+h2 {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.crystals {
+	margin-left: 10px;
 }
