@@ -44,10 +44,12 @@ $(document).ready(function() {
           //sets win/lose conditions
         if (userscore == ComputeRanNum){
           Wins++;
+          $(".wins").text(Wins);
           gameReset();
         }
         else if ( userscore > ComputeRanNum){
           Losses++;
+          $(".losses").text(Losses);
           gameReset();
         }   
    })
@@ -58,10 +60,12 @@ $(document).ready(function() {
           //sets win/lose conditions
         if (userscore == ComputeRanNum){
           Wins++;
+          $(".wins").text(Wins);
           gameReset();
         }
         else if ( userscore > ComputeRanNum){
           Losses++;
+          $(".losses").text(Losses);
           gameReset();
         }
     })
@@ -72,10 +76,12 @@ $(document).ready(function() {
           //sets win/lose conditions
         if (userscore == ComputeRanNum){
           Wins++;
+          $(".wins").text(Wins);
           gameReset()
         }
         else if ( userscore > ComputeRanNum){
           Losses++;
+          $(".losses").text(Losses);
           gameReset();
         }
     })
@@ -86,10 +92,12 @@ $(document).ready(function() {
           //sets win/lose conditions
         if (userscore == ComputeRanNum){
           Wins++;
+          $(".wins").text(Wins);
           gameReset();
         }
         else if ( userscore > ComputeRanNum){
           Losses++;
+          $(".losses").text(Losses);
           gameReset();
         }
     });
